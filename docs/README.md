@@ -39,7 +39,7 @@ N-Space has built-in documentation and tutorials, which you can access through t
 
 The app has been tested with Unity 2020.3.X on Android and iOS. There is little platform-specific code (only for importing/exporting files). Most of the user interface requires touch input and will not work with a mouse, so you will need to use the Unity Remote App, or build for Android directly.
 
-This repository does NOT include the AssetBundle which contains all built-in materials and models. Due to license restrictions the source files for these assets cannot be distributed as open-source. Instead, download the AssetBundle files (`nspace_default_*`) from the [latest release](https://github.com/vanjac/voxel-editor/releases/latest) and put them in the `StreamingAssets` folder.
+This repository does NOT include the AssetBundle which contains all built-in materials and models. Due to license restrictions the source files for these assets cannot be distributed as open-source. Instead, download the AssetBundle files (`nspace_default_*`) from the [latest release](https://github.com/vanjac/nspace/releases/latest) and put them in the `StreamingAssets` folder.
 
 The app has four scenes:
 
@@ -55,7 +55,7 @@ These notes are mostly for me, but you can read them too.
 - iOS: install Xcode
 - Install latest release of Unity 2020, with build tools for Android/iOS
 - Clone repo
-- Download the [AssetBundles](https://github.com/vanjac/voxel-editor/releases/latest) and copy them into StreamingAssets
+- Download the [AssetBundles](https://github.com/vanjac/nspace/releases/latest) and copy them into StreamingAssets
 - Open project in Unity, and switch platform to Android/iOS
 - Open Project Settings > Editor and switch Unity Remote device to Android
 - Android: open Player settings and browse for the keystore location
@@ -65,9 +65,9 @@ Note: there is currently a bug when building for Android using **SDK 34**. See [
 
 ## More info
 
-[MIT License](https://github.com/vanjac/voxel-editor/blob/master/LICENSE.txt)
+[MIT License](https://github.com/vanjac/nspace/blob/master/LICENSE.txt)
 
-See [credits.txt](https://github.com/vanjac/voxel-editor/blob/master/Assets/Menu/credits.txt) for sources of assets and libraries.
+See [credits.txt](https://github.com/vanjac/nspace/blob/master/Assets/Menu/credits.txt) for sources of assets and libraries.
 
 ## Contact me:
 
