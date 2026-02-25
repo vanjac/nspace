@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'com.vantjac.voxel.plugin'
+    compileSdk 35
+    buildToolsVersion "34.0.0"
+
+    defaultConfig {
+        minSdk 22
+        targetSdk 35
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+}

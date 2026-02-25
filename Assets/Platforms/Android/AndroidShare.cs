@@ -23,7 +23,7 @@ public static class AndroidShare {
             using (intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), Path.GetFileName(filePath))) {
             }
 
-            using (AndroidJavaClass fileProviderClass = new AndroidJavaClass("android.support.v4.content.FileProvider"))
+            using (AndroidJavaClass fileProviderClass = new AndroidJavaClass("androidx.core.content.FileProvider"))
             using (AndroidJavaObject unityContext = activity.Call<AndroidJavaObject>("getApplicationContext"))
             using (AndroidJavaClass uriClass = new AndroidJavaClass("android.net.Uri"))
             using (AndroidJavaObject uris = new AndroidJavaObject("java.util.ArrayList"))
