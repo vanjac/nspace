@@ -61,8 +61,6 @@ These notes are mostly for me, but you can read them too.
 - Android: open Player settings and browse for the keystore location
 - iOS: download certificate from Apple and install, get private key and install
 
-Note: there is currently a bug when building for Android using **SDK 35**. See [this thread](https://discussions.unity.com/t/cant-build-for-android-15-in-unity-2021-3-2022-3/951797) for details.
-
 ## More info
 
 [MIT License](https://github.com/vanjac/nspace/blob/master/LICENSE.txt)
