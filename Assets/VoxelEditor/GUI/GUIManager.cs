@@ -55,6 +55,7 @@ public class GUIManager : MonoBehaviour {
     }
 
     void Start() {
+        Application.targetFrameRate = Screen.currentResolution.refreshRate;
         GUIPanel.guiSkin = guiSkin;
         if (Screen.dpi <= 0) {
             Debug.Log("Unknown screen DPI!");

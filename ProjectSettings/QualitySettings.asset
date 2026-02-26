@@ -26,7 +26,8 @@ QualitySettings:
     softVegetation: 0
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 0
-    vSyncCount: 1
+    vSyncCount: 0
+    realtimeGICPUUsage: 25
     lodBias: 0.7
     maximumLODLevel: 0
     streamingMipmapsActive: 0
@@ -44,6 +45,7 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 0
+    Server: 0
     Standalone: 0
     WebGL: 0
     iPhone: 0

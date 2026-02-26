@@ -39,6 +39,8 @@ public class MenuOverflowGUI : GUIPanel {
                     string debugInfo =
                         $"Build: {Application.buildGUID}\n"
                         + $"Resolution: {Screen.width}x{Screen.height}\nDPI: {Screen.dpi}\n"
+                        + $"Refresh Rate: {Screen.currentResolution.refreshRate}\n"
+                        + $"Target FPS: {Application.targetFrameRate}\n"
                         + $"Audio: {AudioSettings.outputSampleRate}Hz {AudioSettings.speakerMode}";
                     string text = StringSet.AboutMessage(Application.version,
                         Application.unityVersion, donate, creditsText.text, assetCredits, debugInfo);
