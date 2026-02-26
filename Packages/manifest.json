@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.unity.ide.visualstudio": "2.0.22",
-    "com.unity.mobile.android-logcat": "1.4.3",
+    "com.unity.ide.visualstudio": "2.0.27",
+    "com.unity.mobile.android-logcat": "1.4.7",
     "com.unity.ugui": "1.0.0",
     "com.yasirkula.nativegallery": "https://github.com/yasirkula/UnityNativeGallery.git",
     "com.unity.modules.androidjni": "1.0.0",
