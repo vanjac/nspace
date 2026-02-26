@@ -5,7 +5,6 @@
 A mobile app for building 3D interactive worlds. This is a work in progress.
 
 - [Google Play](https://play.google.com/store/apps/details?id=com.vantjac.voxel)
-- [iOS App Store](https://apps.apple.com/us/app/n-space/id1448016814)
 - [Video tutorials](https://www.youtube.com/playlist?list=PLMiQPjIk5IrpgNcQY5EUYaGFDuAf7PLY2)
 - [Web Player](https://chroma-zone.itch.io/n-space)
 - [Subreddit](https://www.reddit.com/r/nspace/)
@@ -37,7 +36,7 @@ N-Space has built-in documentation and tutorials, which you can access through t
 
 ## Building the app yourself
 
-The app has been tested with Unity 2020.3.X on Android and iOS. There is little platform-specific code (only for importing/exporting files). Most of the user interface requires touch input and will not work with a mouse, so you will need to use the Unity Remote App, or build for Android directly.
+The app has been tested with Unity 2021.3.X on Android. There is little platform-specific code (only for importing/exporting files). Most of the user interface requires touch input and will not work with a mouse, so you will need to use the Unity Remote App, or build for Android directly.
 
 This repository does NOT include the AssetBundle which contains all built-in materials and models. Due to license restrictions the source files for these assets cannot be distributed as open-source. Instead, download the AssetBundle files (`nspace_default_*`) from the [latest release](https://github.com/vanjac/nspace/releases/latest) and put them in the `StreamingAssets` folder.
 
@@ -53,7 +52,7 @@ The app has four scenes:
 These notes are mostly for me, but you can read them too.
 
 - iOS: install Xcode
-- Install latest release of Unity 2020, with build tools for Android/iOS
+- Install latest release of Unity 2021, with build tools for Android/iOS
 - Clone repo
 - Download the [AssetBundles](https://github.com/vanjac/nspace/releases/latest) and copy them into StreamingAssets
 - Open project in Unity, and switch platform to Android/iOS
